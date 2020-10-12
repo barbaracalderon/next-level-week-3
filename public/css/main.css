@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+  /* Essa é a fonte da raiz, que me serve de parâmetro para todas as outras
+    fontes do site. Isso acontece porque todas as outras fontes utilizo rem. */
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+body,
+input,
+button,
+textarea {
+  /*  font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; 
+    As linhas acima podem ser escritas de outra forma: está na linha abaixo. 
+    font: 400 18px/1 'Nunito', sans-serif;
+    Mas queremos um código baseado em rem, no lugar de px. Por isso, reformulamos abaixo. */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
