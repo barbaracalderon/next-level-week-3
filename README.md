@@ -3,6 +3,9 @@ ENGLISH: Hello, this is a public repository.
 Here, you will see the codes I produced in the "Next Week Level #3" program from Rocketseat.
 This is my first time participating.
 
+The challenge is to create a website called "Happy". Its aim is to help people schedule 
+a visit to local orphanages.
+
 A little context: the "Next Week Level #3" program is a technological event from Rocketseat
 whose purpose is to encourage developers to program and reach the "next level" in their tech journey.
 It lasts for one week (12th-18th october, 2020). During this week, people watch tutorials,
@@ -14,6 +17,9 @@ B.
 PORTUGUÊS: Olá, esse é um repositório público.
 Aqui você vai encontrar os códigos que eu produzi no programa "Next Week Level #3" da Rocketseat.
 É a primeira vez que participo.
+
+O desafio é criar um site chammado "Happy". Seu propósito é ajudar as pessoas a agendar uma
+visita a orfanatos locais.
 
 Um pouco de contexto: o programa "Next Week Level #3" é um evento tecnológico da Rocketseat
 cujo propósito é encorajar/motivar desenvolvedores (devs) a programar e alcançar o "próximo nível"
