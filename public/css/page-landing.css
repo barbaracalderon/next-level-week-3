@@ -24,7 +24,11 @@
 
 main h1 {
   animation-delay: 150ms;
-  font-size: clamp(4rem, 8vw, 8.4rem); /* 4rem valor mínimo, 8vw o que desejo, 8.4rem é o limite máximo. */
+  font-size: clamp(
+    4rem,
+    8vw,
+    8.4rem
+  ); /* 4rem valor mínimo, 8vw o que desejo, 8.4rem é o limite máximo. */
 }
 
 .location,
@@ -48,22 +52,20 @@ h1,
 }
 
 .visit a:hover {
-    background: #96feff;
+  background: #96feff;
 }
-
-
 
 .visit p {
   animation-delay: 200ms;
 }
-
 
 /* desktop version */
 @media (min-width: 760px) {
   #container {
     padding: 5rem 2rem;
     /* short-hand background: image repeat position / size */
-    background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
+    background: url("../images/bg.svg") no-repeat 80% /
+      clamp(30rem, 54vw, 56rem);
   }
   header {
     display: flex;
@@ -71,7 +73,9 @@ h1,
     justify-content: space-between;
   }
 
-  .location, h1, .visit p {
+  .location,
+  h1,
+  .visit p {
     height: initial;
     text-align: initial;
   }
@@ -84,9 +88,12 @@ h1,
 
   main h1 {
     font-weight: bold;
-    line-height: .88;
+    line-height: 0.88;
     margin: clamp(10%, 9vh, 12%) 0 4rem;
-    width: min(300px, 80%); /* O menor entre esses valores, ele vai implementar. */
+    width: min(
+      300px,
+      80%
+    ); /* O menor entre esses valores, ele vai implementar. */
   }
 
   .visit {
