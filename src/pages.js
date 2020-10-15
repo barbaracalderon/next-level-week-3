@@ -17,7 +17,7 @@ module.exports = {
 
     
     createOrphanage(req, res) {
-        return res.render('creste-orphanage')
+        return res.render('create-orphanage')
     }
 
 }
