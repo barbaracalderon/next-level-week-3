@@ -1,0 +1,25 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "ENGLISH: Hello, this is a public repository. \r Here, you will see the codes I produced in the \"Next Week Level #3\" program from Rocketseat.\r This is my first time participating.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbaracalderon/next-level-week-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbaracalderon/next-level-week-3/issues"
+  },
+  "homepage": "https://github.com/barbaracalderon/next-level-week-3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}
