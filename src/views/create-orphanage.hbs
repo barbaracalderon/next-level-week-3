@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/form.css" />
     <link rel="stylesheet" href="/css/buttons.css" />
-
     <link rel="stylesheet" href="/css/map.css" />
     <link rel="stylesheet" href="/css/page-create-orphanage.css" />
     <link
@@ -47,7 +46,7 @@
       </aside>
 
       <main class="animate-appear width-sidebar">
-        <form action="">
+        <form action="save-orphanage" method="post">
           <fieldset>
             <legend>Dados</legend>
 
@@ -88,7 +87,7 @@
                   <input
                     name="images"
                     placeholder="Cole o link da foto aqui"
-                    required
+                    required type="url"
                   />
                   <span onclick="deleteField(event)">
                     <img
